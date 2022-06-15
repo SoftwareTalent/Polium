@@ -97,7 +97,7 @@ export default function Home() {
         </div>
         <span className='text-sm'>and many more</span>
       </div>
-      {/* <div
+      <div
         className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
         style={{ background: '#3EB78440' }}
       >
@@ -105,9 +105,9 @@ export default function Home() {
         <p className='text-sm'>
           A clean dashboard so that you can enjoy Web 3 more effeciently.
         </p>
-      </div> */}
+      </div>
       {/* console features */}
-      {/* <ConsoleFeature /> */}
+      <ConsoleFeature />
       {/* -------- */}
       {/* <div
         className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
@@ -117,10 +117,10 @@ export default function Home() {
         <p className='text-sm'>A controller that is built for Web 3 gaming.</p>
       </div> */}
       {/* ControllerFeature */}
-      <ControllerFeature />
+      {/* <ControllerFeature /> */}
       {/* -------- */}
       {/* Multilingual console*/}
-      <div
+      {/* <div
         className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
         style={{ background: '#F33C3C40' }}
       >
@@ -148,9 +148,9 @@ export default function Home() {
             <Icon icon='ant-design:html5-outlined' width={'100%'}></Icon>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* FAQ */}
-      <FaqList />
+      {/* <FaqList /> */}
       {/* ------------------- */}
       {/* Estimated */}
       <div
