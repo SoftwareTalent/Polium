@@ -109,13 +109,13 @@ export default function Home() {
       {/* console features */}
       <ConsoleFeature />
       {/* -------- */}
-      {/* <div
+      <div
         className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
         style={{ background: '#3e60b740' }}
       >
         <label className='text-4xl  font-bold'> Dual3 Controller</label>
         <p className='text-sm'>A controller that is built for Web 3 gaming.</p>
-      </div> */}
+      </div>
       {/* ControllerFeature */}
       {/* <ControllerFeature /> */}
       {/* -------- */}
