@@ -117,7 +117,7 @@ export default function Home() {
         <p className='text-sm'>A controller that is built for Web 3 gaming.</p>
       </div>
       {/* ControllerFeature */}
-      {/* <ControllerFeature /> */}
+      <ControllerFeature />
       {/* -------- */}
       {/* Multilingual console*/}
       {/* <div
