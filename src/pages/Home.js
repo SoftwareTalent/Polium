@@ -120,7 +120,7 @@ export default function Home() {
       <ControllerFeature />
       {/* -------- */}
       {/* Multilingual console*/}
-      {/* <div
+      <div
         className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
         style={{ background: '#F33C3C40' }}
       >
@@ -148,7 +148,7 @@ export default function Home() {
             <Icon icon='ant-design:html5-outlined' width={'100%'}></Icon>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* FAQ */}
       {/* <FaqList /> */}
       {/* ------------------- */}
