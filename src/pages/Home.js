@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='flex flex-col w-full'>
       <video
-        className='w-full border mb-4'
+        className='w-full border mb-[-1px]'
         autoPlay={'autoplay'}
         preload='auto'
         loop
@@ -27,15 +27,15 @@ export default function Home() {
         className='w-full'
       />
       {/* banner description */}
-      <div className='flex flex-wrap gap-6 bg-black text-white py-4 -mt-1 justify-center h-18 '>
+      <div className='flex flex-wrap gap-20 bg-black text-white py-4 -mt-1 justify-center h-18 '>
         <div></div>
-        <div className='flex flex-col '>
+        <div className='flex flex-col items-center justify-center '>
           <label className='text-2xl md:text-4xl sm:text-3xl  font-bold font-poppins h-12 uppercase'>
             4K
           </label>
           <span className='font-poppins'>4K Ultra HD</span>
         </div>
-        <div className='flex flex-col gap-2 mb-12 justify-between max-h-[72px]'>
+        <div className='flex flex-col items-center justify-center'>
           <img
             src='/assets/touch-id.svg'
             className='h-10 w-10 md:h-12 md:w-12 '
@@ -43,13 +43,13 @@ export default function Home() {
           ></img>
           <span className='font-poppins'>TouchID</span>
         </div>
-        <div className='flex flex-col '>
+        <div className='flex flex-col items-center justify-center'>
           <label className='text-2xl md:text-4xl sm:text-3xl font-bold h-12 uppercase font-poppins'>
             8K HDR
           </label>
           <span className='font-poppins'>High Dynamic Range</span>
         </div>
-        <div className='flex flex-col  justify-between max-h-[72px]'>
+        <div className='flex flex-col items-center justify-center'>
           <img
             src='/assets/ray.svg'
             className='h-10 w-10 sm:h-12 sm:w-12'
@@ -57,7 +57,7 @@ export default function Home() {
           ></img>
           <span className='font-poppins'>Ray tracing</span>
         </div>
-        <div className='flex flex-col mb-12'>
+        <div className='flex flex-col items-center justify-center'>
           <label className='text-2xl md:text-4xl sm:text-3xl font-bold h-12 uppercase font-poppins'>
             Up to 120
           </label>
@@ -70,39 +70,44 @@ export default function Home() {
       </div>
       {/* multi chain consle */}
       <div
-        className='flex flex-col p-2 gap-8 items-center py-10 text-black mb-4'
+        className='flex flex-col items-center text-black'
         style={{ background: '#9558c447 ' }}
       >
-        <label className='text-4xl  font-bold font-poppins'>
+        <label className='text-[48px]  font-bold font-poppins mt-[49px] mb-[32px]'>
           {' '}
           It's a Multi-chain console
         </label>
-        <p className='text-sm font-poppins'>
+        <p className='text-[20px] font-poppins mb-[95px]'>
           Discover & Play Ethereumn, Solana and Polygon games without needing to
           switch chain
         </p>
-        <div className='flex justify-center gap-6 sm:gap-12'>
+        <div className='flex flex-row w-full items-center justify-evenly mb-[84px]'>
           <LazyLoadImage
-            className='h-14 sm:h-28'
+            className='h-14 sm:h-28 md:h-[211px]'
             src='/assets/ethereum-(eth).png'
           ></LazyLoadImage>
           <LazyLoadImage
-            className='h-14 sm:h-28'
+            className='h-14 sm:h-28 md:h-[211px]'
             src='/assets/solana-(sol).png'
           ></LazyLoadImage>
           <LazyLoadImage
-            className='h-14 sm:h-28'
+            className='h-14 sm:h-28 md:h-[211px]'
             src='/assets/polygon-(matic).png'
           ></LazyLoadImage>
         </div>
-        <span className='text-sm font-poppins'>and many more</span>
+        <span className='text-[20px] font-poppins mb-[40px]'>
+          and many more
+        </span>
       </div>
       <div
-        className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
+        className='flex flex-col items-center justify-center  text-black'
         style={{ background: '#3EB78440' }}
       >
-        <label className='text-4xl  font-bold font-poppins'> Dashboard</label>
-        <p className='text-sm font-poppins'>
+        <label className='text-[36px]  font-bold font-poppins mt-[37px]'>
+          {' '}
+          Dashboard
+        </label>
+        <p className='text-[20px] font-poppins mt-[32px] mb-[89px]'>
           A clean dashboard so that you can enjoy Web 3 more effeciently.
         </p>
       </div>
@@ -110,14 +115,14 @@ export default function Home() {
       <ConsoleFeature />
       {/* -------- */}
       <div
-        className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
+        className='flex flex-col items-center text-black mb-[36px]'
         style={{ background: '#3e60b740' }}
       >
-        <label className='text-4xl  font-bold font-poppins'>
+        <label className='text-[36px] mt-[28px] font-bold font-poppins'>
           {' '}
           Dual3 Controller
         </label>
-        <p className='text-sm font-poppins'>
+        <p className='text-[20px] font-poppins mt-[33px] mb-[97px]'>
           A controller that is built for Web 3 gaming.
         </p>
       </div>
@@ -126,10 +131,10 @@ export default function Home() {
       {/* -------- */}
       {/* Multilingual console*/}
       <div
-        className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
+        className='flex flex-col items-center text-black '
         style={{ background: '#F33C3C40' }}
       >
-        <label className='text-4xl  font-bold font-poppins'>
+        <label className='text-[48px] mt-[67px] mb-[32px]  font-bold font-poppins'>
           {' '}
           It's a Multilingual console
         </label>
