@@ -1,12 +1,11 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         'green-1': '#00850D',
@@ -14,11 +13,11 @@ module.exports = {
         'yellow-1': '#FFFF00',
         'bg-1': '#323232',
         'bg-2': '#292929',
-      }
+      },
     },
     container: {
       center: true,
-    }
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {
@@ -26,22 +25,23 @@ module.exports = {
     themes: [
       {
         custom: {
-          "primary": "#570DF8",
-          "secondary": "#44403c",
-          "accent": "#9558C4",
-          "neutral": "#3ABFF8",
-          "base-100": "#FFFFFF",
-          "info": "#3ABFF8",
-          "success": "#36D399",
-          "warning": "#eab308",
-          "error": "#ef4444",
+          primary: '#570DF8',
+          secondary: '#44403c',
+          accent: '#9558C4',
+          neutral: '#3ABFF8',
+          'base-100': '#FFFFFF',
+          info: '#3ABFF8',
+          success: '#36D399',
+          warning: '#eab308',
+          error: '#ef4444',
         },
-      }
-      , 'light'],
+      },
+      'light',
+    ],
     base: true,
     utils: true,
     logs: true,
     rtl: false,
-    prefix: "",
-  }
-}
+    prefix: '',
+  },
+};
