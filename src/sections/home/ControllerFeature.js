@@ -29,7 +29,7 @@ export default function ControllerFeature() {
         <label className='text-[20px] font-bold'>Controller Featrues</label>
         {CONTROLLER_FEAUTURES_ITEMS.map((item, index) => (
           <div className='flex gap-2 items-center' key={index}>
-            <div className='h-12 min-w-[48px] w-12 rounded-full border border-base-300 flex justify-center items-center'>
+            <div className='h-12 min-w-[48px] w-12 rounded-full border border-base-300 flex justify-center items-center mr-[25px]'>
               <Icon icon={item.icon} width={24}></Icon>
             </div>
             {/* <img src={item.image} alt='' className='h-12 w-12' /> */}
