@@ -28,7 +28,9 @@ export default function Playables() {
       <p className='font-khula text-[20px]'>
         The NFT for accessing the Polium Ecosystem.
       </p>
-      <span className='font-khula text-[16px]'>Mint is coming soon!</span>
+      <span className='font-khula text-[16px] text-[#6B6B6B]'>
+        Mint is coming soon!
+      </span>
       <div className='w-full max-w-3xl border border-base-300 mb-10 sm:mb-16'>
         <video
           className='w-full border mb-[-1px]'
@@ -58,7 +60,7 @@ export default function Playables() {
           <div className='flex h-12 w-12 flex-col mb-[27px]'>
             <img src='/assets/ticket-star.svg' className='width:100%' />
           </div>
-          <span className='text-[20px] font-khula'>5000 Tickets</span>
+          <span className='text-[20px] font-khula'>5000 PLAY</span>
         </div>
         <div className='flex flex-col  items-center  '>
           <div className='flex h-12 w-12 flex-col mb-[27px]'>
