@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         poppins: ['Poppins', 'sans-serif'],
+        khula: ['Khula', 'sans-serif'],
       },
       colors: {
         'green-1': '#00850D',

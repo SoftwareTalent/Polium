@@ -131,17 +131,17 @@ export default function Home() {
       {/* -------- */}
       {/* Multilingual console*/}
       <div
-        className='flex flex-col items-center text-black '
+        className='flex flex-col items-center text-black mb-[157px]'
         style={{ background: '#F33C3C40' }}
       >
         <label className='text-[48px] mt-[67px] mb-[32px]  font-bold font-poppins'>
           {' '}
           It's a Multilingual console
         </label>
-        <p className='text-sm font-poppins'>
+        <p className='text-[20px] font-poppins mb-[95px]'>
           Pay games that are built from many different technologies.
         </p>
-        <div className='flex justify-center gap-2 sm:gap-4 flex-wrap'>
+        <div className='flex justify-evenly items-center w-full mb-[159px]'>
           <div className='w-20 sm:w-28'>
             <Icon icon='tabler:brand-javascript' width={'100%'}></Icon>
           </div>
@@ -164,24 +164,24 @@ export default function Home() {
       {/* ------------------- */}
       {/* Estimated */}
       <div
-        className='flex p-2 flex-col gap-8 items-center py-10 text-black mb-4'
-        style={{ background: '#3e60b740' }}
+        className='flex flex-col items-center text-black mb-[193px]'
+        style={{ background: '#e4d5f0' }}
       >
-        <h2 className='text-4xl  font-bold font-poppins'>
+        <h2 className='text-[36px]  font-bold font-poppins mt-[105px]'>
           Estimated Launch Date: 2024
         </h2>
-        <p className='text-sm mb-8 font-poppins'>
+        <p className='text-[20px] mb-8 font-poppins mt-[54px]'>
           We are building it. It will be worth the wait. It’s the future of
           gaming
         </p>
-        <div className='flex justify-center gap-6 mb-12 flex-col sm:flex-row'>
-          <button className='btn btn-outline px-12 btn-sm font-poppins'>
+        <div className='flex justify-center gap-6 mb-12 flex-col sm:flex-row mt-[83px]'>
+          <button className='btn btn-outline px-12 text-[16px] btn-md font-poppins rounded-none border-2'>
             Pre-oder
           </button>
-          <button className='btn btn-outline px-12 btn-sm font-poppins'>
+          <button className='btn btn-outline px-12 text-[16px] btn-md font-poppins rounded-none border-2'>
             Whitepaper
           </button>
-          <button className='btn btn-outline px-12 btn-sm font-poppins'>
+          <button className='btn btn-outline px-12 text-[16px] btn-md font-poppins rounded-none border-2'>
             Discord
           </button>
         </div>

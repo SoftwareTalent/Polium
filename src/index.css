@@ -6,3 +6,7 @@ font-face {
   font-family: 'Poppins';
   src: url('../public/fonts/Poppins-Regular.ttf');
 }
+font-face {
+  font-family: 'Khula';
+  src: url('../public/fonts/Khula-Regular.ttf');
+}
