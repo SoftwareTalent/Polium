@@ -102,7 +102,7 @@ export default function Playables() {
         Frequently asked questions regarding the Polium Pass
       </p>
       <div className='w-full md:w-3/4 mb-[414px]'>
-        {/* <Collapse items={faqs}></Collapse> */}
+        <Collapse items={faqs}></Collapse>
       </div>
     </div>
   );
