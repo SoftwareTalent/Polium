@@ -19,13 +19,13 @@ export default function Home() {
           type='video/mp4'
         />
       </video>
-      <LazyLoadImage
+      {/* <LazyLoadImage
         alt=''
         src='/assets/banner.jpg'
         effect='blur'
         wrapperClassName='w-full'
         className='w-full'
-      />
+      /> */}
       {/* banner description */}
       <div className='flex flex-wrap gap-20 bg-black text-white py-4 -mt-1 justify-center h-18 '>
         <div></div>
