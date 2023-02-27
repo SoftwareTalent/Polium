@@ -88,9 +88,9 @@ export default function Playables() {
 
       <div className='flex rounded-xl w-[280px] h-60 bg-gradient-to-b from-fuchsia-400 to-blue-300 items-center justify-center gap-4 mb-14'>
         <div className='rounded-full h-40 w-40 py-10 flex flex-col items-center gap-3 border-gray-600 border-4'>
-          {/* <div className='w-10'>
+          <div className='w-10'>
             <img src='/assets/ticket-star.svg' className='width:100%' />
-          </div> */}
+          </div>
           <h3 className='text-xs tracking-tight'>Next Amount: 100 Tickets</h3>
         </div>
       </div>
